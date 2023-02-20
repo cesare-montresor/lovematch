@@ -1,0 +1,182 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<style>
+.lovematch_astro_planetlist_sign, .lovematch_astro_planetlist_house, .lovematch_astro_planetlist_aspect
+{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+#lovematch_astro_planetlist, #lovematch_astro_houselist, #lovematch_astro_aspectlist
+{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+}
+</style>
+
+<script>
+    $(document).ready(function(){
+        $('#lovematch_astrochart_toggle').click(function(){
+            showHideChart();
+        });
+        
+        $('.lovematch_astro_planetlist_sign').click(function(){
+            
+            var planet=$(this).parent().find('.lovematch_astro_planetlist_name').html().trim();
+            var sign = $(this).html().trim();
+            var type = 'planet-in-sign';
+            var key = planet + '-' + sign;
+            showDescription(type,key);
+        });
+        
+        $('.lovematch_astro_planetlist_house').click(function(){
+            
+            var planet=$(this).parent().find('.lovematch_astro_planetlist_name').html();
+            var type = 'planet-in-house'; 
+            var house = $(this).html().trim();
+            var key = planet + '-' + house;
+            showDescription(type,key);
+        });
+        
+        $('.lovematch_astro_planetlist_aspect').click(function(){
+            
+            var item1=$(this).parent().find('.lovematch_astro_planetlist_item1').html().trim();
+            var item2=$(this).parent().find('.lovematch_astro_planetlist_item2').html().trim();
+            var type = 'planet-aspect';
+            var angle = $(this).html().trim();
+            var key = item1 + '-' + angle + '-' + item2;
+            showDescription(type,key);
+        });
+    });
+    
+    function showDescription(type,key)
+    {
+        url = '{url_for_route for="lovematch.horoscope.text:[type=>_type_,key=>_key_]"}';
+        url = url.replace('_type_',type);
+        url = url.replace('_key_',key);
+        //alert(url);
+        
+        $.ajax({
+            url: url
+        }).done(function(data){
+            var output = '';
+            data.desc = data.desc === undefined ?'':data.desc;
+            output += '<div>'+data.title+'</div>';
+            output += '<p>'+data.desc+'</p>';
+            $('#lovematch_astrochart_text').html(output);
+        });
+    }
+    
+    function showHideChart()
+    {
+        var toggle = $('#lovematch_astrochart_toggle');
+        var chart = $('#lovematch_astrochart');
+        var show = chart.css('display') != 'none';
+        if(show)
+        {
+            chart.css('display','none');
+            toggle.html('show chart');
+        }
+        else
+        {
+            chart.css('display','block');
+            toggle.html('hide chart');
+        }
+    }
+    
+    
+</script>
+<!--<div id="lovematch_astrochart_toggle">show chart</div>-->
+{if ($isAuthorized == true)}
+<img id="lovematch_astrochart" src="{$urlChart}"/>
+<br/>
+<br/>
+<div>
+<div>
+    <table id='lovematch_astro_planetlist'>
+        <caption>Planets</caption>
+        <tr>
+            <th>Name</th>
+            <th>Sign</th>
+            <th>House</th>
+            <th>Longitude</th>
+        </tr>
+        {foreach from=$planetList item=planet}
+        <tr>
+            <td class="lovematch_astro_planetlist_name">{$planet['name']}</td>
+            <td class="lovematch_astro_planetlist_sign">{$planet['sign']}</td>
+            <td class="lovematch_astro_planetlist_house">
+                {if isset($planet['house'])}
+                    {$planet['house']}
+                {/if}
+            </td>
+            <td style="text-align: right"><pre>{$planet['longitude_sign']}</pre></td>
+        </tr>
+        {/foreach}
+    </table>
+    <br/>
+    <br/>
+{*
+    <table id='lovematch_astro_houselist'>
+        <caption>Houses</caption>
+        <tr>
+            <th>House</th>
+            <th>Planets</th>
+        </tr>
+        {foreach from=$houseList item=house}
+        {if count($house['planet'])>0}
+        <tr>
+            <td>House {$house['name']}</td>
+            <td>
+                <ul>
+                {foreach from=$house['planet'] item=planet}
+                    <li>{$planet}</li>
+                {/foreach}
+                </ul>
+            </td>
+        </tr>
+        {/if}
+        {/foreach}
+    </table>
+    <br/>
+    <br/>
+    
+    <table id='lovematch_astro_aspectlist'>
+        <caption>Aspects</caption>
+        <tr>
+            <th>Planet</th>
+            <th>Planet</th>
+            <th>Aspect</th>
+            <th>Aspect name</th>
+        </tr>
+        {foreach from=$aspectList item=aspect}
+        <tr>
+            <td class="lovematch_astro_planetlist_item1">{$aspect['item1']['name']}</td>
+            <td class="lovematch_astro_planetlist_item2">{$aspect['item2']['name']}</td>
+            <td class="lovematch_astro_planetlist_aspect">{$aspect['angle']}</td>
+            <td>{$aspectNameList[$aspect['angle']]}</td>
+        </tr>
+        {/foreach}
+    </table>*}
+</div> 
+
+<div id="lovematch_astrochart_text"></div>
+
+<div class="el_gunas">
+	<h3>Repartition of Elements</h3>
+	Air : {$elements['air']} <br/>
+	Fire : {$elements['fire']} <br/>
+	Water : {$elements['water']} <br/>
+	Earth : {$elements['earth']} <br/>
+</div><br/>
+<div class="el_gunas">
+	<h3>Repartition of Gunas</h3>
+	Sattvic - Mutable : {$gunas['mutable']} <br/>
+	Tamasic - Fixed : {$gunas['fixed']} <br/>
+	Rajasic - Cardinal : {$gunas['cardinal']} <br/>
+</div><br/>
+{/if}

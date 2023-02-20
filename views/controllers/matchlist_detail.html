@@ -1,0 +1,258 @@
+<style>
+{style}
+    #lovematch_detail_view
+    {
+        background-color:white;
+        border-radius: 20px;
+        border:2px solid lightgray;
+        text-align:center;
+        padding: 20px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #lovematch_detail_view .col3
+    {
+        width: 30%;
+        display:inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #lovematch_detail_view .col2
+    {
+        width: 43%;
+        vertical-align:top;
+        display:inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #chartTabs .ui-tabs-active a
+    {
+        color: black;
+    }
+    
+    #lovematch_detail_view .score
+    {
+        font-size: 40px;
+    }
+    
+    #lovematch_detail_view .avatar img
+    {
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+    
+    #lovematch_detail_view .detail
+    {
+        text-align:left;
+        width: 700px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 50px;
+    }
+    
+    #lovematch_detail_view .detail table
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    #lovematch_detail_view .detail table caption
+    {
+        text-transform:capitalize;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: #0076a3;
+        color: white;
+    }
+    
+    #lovematch_detail_view .detail table .row_planet
+    {
+        width: 55%;
+    }
+    #lovematch_detail_view .detail table .row_score
+    {
+        width: 5%;
+    }
+    #lovematch_detail_view .detail table .row_info
+    {
+        width: 40%;
+    }
+    
+    #lovematch_detail_view .detail table .row_total
+    {
+        text-align:center;
+        font-size: 20px;
+    }
+    
+    #lovematch_detail_view .detail table .row_total div
+    {
+        text-align:center;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 30px;
+        background-color: #eee;
+    }
+    
+    #chartTabs
+    {
+        margin-top: 50px;
+    }
+    
+    #chartTabs .tabContainer
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        border-radius: 10px;
+        
+        border: 1px solid lightgray;
+    }
+    
+    #chartTabs li  
+    {
+        display: inline-block;
+        width: 15%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin: 0;
+    }
+    
+    #chartTabs li .active
+    {
+        background-color: red;
+    }
+    
+    
+        
+    
+{/style}
+</style>
+
+{if $valid}
+    
+    
+    <div id="lovematch_detail_view">
+        <div class="col3 person">
+            <div class="">
+                {user_link username=$username1 name=$realname1}
+            </div>
+            <div class="avatar" style="padding-top: 8px">
+                <img src="{$avatar1}"/>
+            </div>
+        </div>
+
+        <div class="col3 match">
+            <div class="score">
+                Total: {(int)($score/$maxScore*100)}%
+            </div>
+        </div>
+
+        <div class="col3 person">
+            <div class="">
+            {user_link username=$username2 name=$realname2}
+            </div>
+            <div class="avatar" style="padding-top: 8px">
+                <img src="{$avatar2}"/>
+                
+            </div>
+        </div>
+        {if ($isAuthorized == true)}
+			<div class="col1 detail">
+				{foreach from=$category item=cat key=catName}
+					<table class="col2">
+						<caption>{$catName}</caption>
+						{assign "subtotal" "0"}
+						{foreach from=$cat item=entry}
+
+						<tr>
+							<td class="row_planet">{$entry['planet1']} <-> {$entry['planet2']}</td>
+							<td class="row_score">{$entry['total']}</td>
+							{*<td>{$entry['match']}</td>*}
+							<td class="row_info">{$entry['match_info']}</td>
+							{assign "subtotal" $subtotal+$entry['total']}
+						</tr>
+						{/foreach}
+						<tr>
+						<td colspan="3" class="row_total"> <div> Total: {$subtotal}</div></td>
+						</tr>
+					</table>
+					
+				{/foreach}
+			</div>
+        {/if}    
+        <div id="chartTabs" class="col1">
+            <ul>
+				<li><a href="#chartTabs-1">Natal {$realname1}</a></li>
+				<li><a href="#chartTabs-2">Natal {$realname2}</a></li>
+                <li><a href="#chartTabs-3">Synastry</a></li>
+                <li><a href="#chartTabs-4">Composite</a></li>
+            </ul>
+            <div class="tabContainer">
+				<div class="tabs" id="chartTabs-1" >
+					<img src="{url_for_route for="lovematch.horoscope.draw.natal:[username=>$username1]"}"/>
+				</div>
+				{if ($isAuthorizedViewChart == true)}
+					<div class="tabs" id="chartTabs-2">
+						<img src="{url_for_route for="lovematch.horoscope.draw.natal:[username=>$username2]"}"/>
+					</div>
+					<div class="tabs" id="chartTabs-3">
+						<img src="{url_for_route for="lovematch.horoscope.draw.synastry:[username=>$username2]"}"/>
+					</div>
+				{else}
+					<div class="tabs" id="chartTabs-2">
+						<p style="padding: 20px 0;">The privacy settings of {$realname2} do not allow you to see this chart.</p>
+					</div>
+					<div class="tabs" id="chartTabs-3">
+						<p style="padding: 20px 0;">The privacy settings of {$realname2} do not allow you to see this chart.</p>
+					</div>
+				{/if}
+                <div class="tabs" id="chartTabs-4">
+                    <img src="{url_for_route for="lovematch.horoscope.draw.composite:[username=>$username2]"}"/>
+                </div>
+            </div>
+        </div>
+
+            <p style="margin-top: 30px; margin-bottom: 20px;">
+                <i>
+                This matching system has been elaborated in collaboration with Swami and Daniela.<br/>
+                We're continously working on improving the quality of our algorythm, however as no computer can replace a professional astrologer, think about consulting one if you want more specific advices. If you are on the island, you can contact Daniela at 093 649 5267.<br/><br/>
+                For any enquire, suggestion or bug report please use the <a href="{url_for_route for="section-default:[sectionId=>1]"}">Support forum</a>, we are looking forward to hear from you ^_^
+                </i>
+                
+            </p>  
+    </div>
+    <script>
+        $(function() {
+            $("#chartTabs").tabs();
+        });
+    </script>
+    
+{else}
+    <br/>
+    <div style="text-align:center; font-size: 16px" >
+        In order to access to the matching system we need you to 
+        <a href="{$userEditUrl}"><b>update your profile</b></a> 
+        with your astrological details
+    </div>
+{/if}

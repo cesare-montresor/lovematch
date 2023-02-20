@@ -1,0 +1,360 @@
+// PH Planet in House
+// Planet in House
+
+[JU.01]
+Your career may be built around the way you appear or present yourself -- the way you come across to others. Your spontaneous personality and ability to fascinate others are  key elements in being successful.
+
+[JU.02]
+Your career or life-path may depend on your talent for responding and making something out of ideas, insights... whatever is new and challenging. The business world may call for your ability to react and build on opportunities.
+
+[JU.03]
+A born investigator and researcher, always inquiring, searching, following things to their logical conclusion. Your career will probably be built around these qualities of yours -- communication, making connections, thoughts and ideas, and so on.
+
+[JU.04]
+Your career may be built on your search for roots and security. You find yourself through home and family (all things domestic), and it would be excellent if you could somehow make your living in these areas.
+
+[JU.05]
+You could be successful working with creativity and self-expression through the arts and theater, in sports, or with the ultimate self-expression, children. You may find yourself a guide and teacher to others when it comes to these matters.
+
+[JU.06]
+A career in one of the service or health occupations is possible, for you may find yourself automatically taking care of the needs of others. Your occupation involves health, food, and all attempts to restore, salvage, and make the best out of things.
+
+[JU.07]
+Your life path involves very close relationships with others. This could be through a marriage or another form of yoga (union). Making the two one, joining together what is separate, is the key to your career.
+
+[JU.08]
+Your life path involves cutting through appearances and superficialities and laying bare the reality of a situation. This could mean that the business world is an open book for you -- easy to read. Any career where you get through to what really is there.
+
+[JU.09]
+Your devotion and search for truth may carry you across the globe and certainly to the far reaches of philosophy and religious thoughts. Your career may hinge on your need to always get at the seed, essence, or heart of every question.
+
+[JU.10]
+It is natural for you to put your practical and managerial abilities to work. You can make a career out of your keen organizational skills and clear insight into how things work. Supervision and taking charge are your trademarks.
+
+[JU.11]
+You could make a career out of group or community work, anything involving attempts to bring large-scale and humanitarian dreams and ideas to reality. Your ideals and inner vision keep what is best for everyone ever on your mind.
+
+[JU.12]
+You could excel in a career that involves understanding and self-sacrifice. Psychology, counseling -- guiding others to be forgiving and accepting -- may be a special skill that you have. Work with mental patients, prison inmates, and the like is possible.
+
+[MA.01]
+You have a strong drive to be seen and known -- to communicate yourself to others. Personal appearance (the way you present yourself) is also a motivating factor.
+
+[MA.02]
+You are motivated when it comes to possessions and material things. An urge to respond, own, and build upon whatever comes your way makes you a natural when it comes to productivity and the business world.
+
+[MA.03]
+A relentless drive to pursue knowledge, to search, research, and follow out leads and pointers. You are very motivated when it comes to communications of all forms -- phone, voice, letters, computers, and the like.
+
+[MA.04]
+You are driven to send down roots, dig in, and find the limits of whatever you are involved in. This urge to be secure always pushes you to always get to the foundation of things. You are motivated when it comes to home and family.
+
+[MA.05]
+You are driven to excel in any form of physical and creative expression--sports, theatrics, arts and crafts, whatever. This urge to express yourself, to speak out and be heard, propels you into many an interesting situation.
+
+[MA.06]
+You are very motivated when it comes to matters of care and service -- taking care of details. You are up for any task that requires conservation -- separating the wheat from the chaff. An urge to salvage everything.
+
+[MA.07]
+You are highly motivated when it comes to relationships (social or private) and strive to rise above personalities. An urge to see unity in everything, to marry or join all disparities, may find you going overboard now and again.
+
+[MA.08]
+Not content with appearances, you are driven to reduce everything to the bare essentials, the nitty-gritty. This compelling urge for integrity and contempt for the superficial may offend some.
+
+[MA.09]
+You may end up traveling the world. An inner urge to find the very heart of truth in all things may propel you endlessly. You are very motivated when it comes to philosophies, religion, and all things essential and lasting. No superficiality.
+
+[MA.10]
+You are driven to manage and control things. An urge to organize and be practical amounts to a minor obsession. Your career motivation is constant and relentless.
+
+[MA.11]
+You have real community spirit, a drive to work with others on projects of humanitarian interest. An urge to make your altruistic dreams a reality keeps you moving in the direction of group goals and work.
+
+[MA.12]
+You have a high degree of motivation when it comes to giving and to personal sacrifice. You feel understanding and accepting and are easily moved by the problems of others. Psychology in all of its forms is a driving force in your life.
+
+[ME.01]
+You think a lot about appearances -- how things come across or might appear to others. You are very personable and aware of personalities.
+
+[ME.03]
+You have a good mind for business. You tend to think along lines that are practical and conservative, always coming up with sound and productive ideas. ME 02
+You love to study and question and are always inquiring and searching, using your mind for research. You enjoy communication in all its forms -- spoken, written, via computers, and so on. Your mind is active, always testing and searching for limits.
+
+[ME.04]
+Your mind tends to settle on issues of security -- home, family, and such. Your thoughts have great substance and feeling. An interest in history, the past, and nostalgia may be lifelong.
+
+[ME.05]
+You can express feelings and put emotions into words. This could give you a flair for the dramatic, public speaking, poetry, and the arts. You are proud of your mind and enjoy using it, solving puzzles -- any creative mental outlet.
+
+[ME.06]
+You are skilled at using your mind in an analytical manner, always discriminating. An expert at quality control, you can spot the bad apples every time. You may be skillful when it comes to health-related matters (mental or physical).
+
+[ME.07]
+You love to communicate and discuss ideas with other people. Your ideas are always fair and impartial, especially when it comes to other people, the social scene. You are at your mental best when you are communicating with others.
+
+[ME.08]
+You have a very analytical bent, and your mind excels at making practical decisions. Your ideas run deeper than superficial issues which could mean an interest in depth psychology and even occult and mystical subjects.
+
+[ME.09]
+Your mind and thoughts always gravitate to what is lasting, true, or of the essence. Philosophy and religion are subjects that often occupy you. Your ideas are always to the point and candid, never florid or superficial.
+
+[ME.10]
+When it comes to business and career, you have a mind that just can't help but taking care of business. Your thoughts and ideas are nothing if not practical, and your clear-sightedness makes some form of management or supervision almost unavoidable.
+
+[ME.11]
+Your mind runs to humanitarian values and thoughts of what could (and should) be. Ideas connected with group work and goals (making your inner vision real) are natural. You are good at putting your ideas to work in the world, making dreams real.
+
+[ME.12]
+Your mind is naturally interested in all that is psychological and beneath the surface of things. Ideas of self-sacrifice and compassion -- how to serve and help others -- are what you tend to think about.
+
+[MO.01]
+You always manage to end up in the limelight, with the support of those around you. You get a lot of mileage out of your appearance and the way you carry yourself and communicate to others. You could make your living from the public.
+
+[MO.02]
+Good things (the support you need) always seem to come to you. Friends, co-workers, and plain old lucky circumstances offer encouragement and backing. You often get what you need, when you need it.
+
+[MO.03]
+You have a knack for putting the feelings of a group into words and may serve as a teacher or spokesperson. Communication is one area where you can always get support and backing from friends and co-workers. Historical ideas may interest you.
+
+[MO.04]
+You look to home and family for support and encouragement. History (personal or otherwise) interests you, and you tend toward nostalgia. Security is very important and you need to have real roots in order to be productive.
+
+[MO.05]
+You are at your most expressive when urged on by a group or in an environment that you feel is supportive. You may enjoy group sports or working with children or animals. Creativity and its expression are very important in your life.
+
+[MO.06]
+You always find support from others when you turn your attention to health, food, nutrition, and areas where service or attention to detail are in high focus. You may enjoy working with a group of others where you can exercise your discrimination.
+
+[MO.07]
+Your friends, partners, and relationships mean a lot to you. They are a primary source of strength, and you always look to them for support and encouragement. You are indeed a social being and will no doubt weave this fact into your lifestyle.
+
+[MO.08]
+Your keen business sense is never sharper than when you are working with or for others -- a group, corporation, and so on. You are great at finding excess and rooting it out, and your actions receive support from those around you. Initiating others.
+
+[MO.09]
+Your sense of honesty and truth is something that others sense in you and support. You might find yourself teaching or guiding groups in matters of religion or philosophy. Travel, especially with others, is indicated.
+
+[MO.10]
+You have a natural insight and understanding as to what the public wants. Your career gets all kinds of support from other people, and you feel at home making practical and management decisions. You look to your work for strength and encouragement.
+
+[MO.11]
+You need to be part of a group and draw strength and encouragement from your friends and acquaintances. Working with others, especially on community or humanitarian efforts, is perfect for you. You grow through making ideals real.
+
+[MO.12]
+Psychology -- in particular group work -- is one area that you can always look to for support and encouragement. You may find yourself counseling or ministering to others, helping them to understand and accept their lives.
+
+[NE.01]
+You are a real charmer -- able to enchant others and bring them under your spell. You manage to communicate an almost mystical sense to a group. Your ideals and ability to see the whole picture are obvious to all who come to know you.
+
+[NE.02]
+You are very idealistic when it comes to possessions, finance, and how you choose to make your living. Your response to what life offers you is always very elevated, although not always practical. This could lead to some disappointments.
+
+[NE.03]
+Your mind tends to be very imaginative and not concerned with facts and figures. Instead, ideas and writing of a mystical or poetic nature appeal. Research into religious or very idealistic subjects is indicated.
+
+[NE.04]
+You don't have to leave home to escape from the rat race. Family, home, and security seem just about ideal to you. You may be very imaginative with your home and domestic setup, or a sense of community and unity pervades your family life.
+
+[NE.05]
+You have great creative imagination, perhaps a strong sense for the dramatic and the ability to express ideas of a mystical or other-worldly flavor. Entertaining children (and adults) with enchanting stories and the like is indicated.
+
+[NE.06]
+You are very imaginative when it comes to your health, the food you eat, and how you take care of yourself. Quick to get the picture, you may find yourself helping others see the benefits that proper care (mental, physical, and such) can bring.
+
+[NE.07]
+You never forsake your ideals when it comes to relationships of any kind. Your imagination is at its best when you are being social or relating to others. You have a real vision of what marriage is all about.
+
+[NE.08]
+You are very trusting and idealistic when it comes to taking care of business, getting down to the nitty-gritty. You see the best in a situation, making it hard to say no or cut yourself the best deal. Initiation and the mystical will appeal.
+
+[NE.09]
+Your dreams and ideals rest in whatever is pure and true. Philosophy and religion are your escape and refuge from the mundane world. An almost mystical imagination provides you with visions into the world as a community -- a sense of unity.
+
+[NE.10]
+Your practical skills are linked to your almost mystical inner vision. You manifest your ideals and dreams in an organized and clear-headed manner. You would be great at giving the public a sense of the ideal via films, advertising, spiritual work.
+
+[NE.11]
+You dream of a world where unity and harmony are a reality. Group or community work with high aims (great altruism) would be ideal for you. Your imagination drives you to make your dreams and inner vision a reality.
+
+[NE.12]
+You have very high ideals and a vision of unity and togetherness that allows you to be long-suffering and put up with a lot. You tend to be self-sacrificing, understanding, and always interested in whatever is psychological, mystical, and the like.
+
+[PL.01]
+You are very out-front and candid, probably not known for your great sense of diplomacy or tact. Your intensity and passionate approach to life are obvious to all who meet you. You are driven to penetrate the superficial and get at the essential.
+
+[PL.02]
+You could be a terrific business person, as you have an ability to get past the surface of things and separate out that which has real worth. In the area of possessions or material goods you will go through a lot of changes and learn a lot.
+
+[PL.03]
+A good detective or research person. You can't help but get past all that is superficial. A passion for inquiry, questioning and searching finds you always in pursuit of some piece of information... communicating, writing, speaking.
+
+[PL.04]
+You may go through a lot of changes that affect your sense of security. Your home and family situation could be a focus for growth and real learning -- an area of great sensitivity and vulnerability.
+
+[PL.05]
+You are very sensitive (even vulnerable) when it comes to expressing yourself, getting it out. Periods of intense creativity enable you to go through changes and inner growth. This creative intensity is good for music, poetry, art, and the like.
+
+[PL.06]
+You tend to be radical when it comes to self-analysis, which includes health care, food, physical wellbeing. Serving and caring for yourself and others is a primary source of inner growth and change. You are sensitive to criticism.
+
+[PL.07]
+Change and inner growth tend to come through your relationships with both friends and lovers. Marriage, union (yoga) will be very intense and not at all superficial. You get to the heart of a relationship each and every time.
+
+[PL.08]
+You tear through appearances in an effort to get beneath, behind, and at the heart or essence. You may find the occult, psychology, initiation and mysticism of great interest. Intense personal change and inner growth are lifelong habits.
+
+[PL.09]
+You are passionate in your search for truth and essence. Nothing superficial or ephemeral holds your attention. Your intense analytical approach to life cuts through to the heart of things. This directness may not always endear you to others.
+
+[PL.10]
+A tremendous practical sense and drive cuts through all the red tape and exposes the right decisions every time. You may have an ability to organize and manage all that is vulnerable and sensitive in the human psyche... the public mind.
+
+[PL.11]
+Your burning zeal for the ideal world and your need to be part of a group of like-minded souls are major factors in your makeup. You learn and grow through your efforts to help others and to make your inner vision into a reality.
+
+[PL.12]
+A born psychologist. You can't help but dig beneath the surface of the human psyche and its vulnerabilities. You are passionate about your willingness to give and to sacrifice yourself for what you believe in. You understand and accept others.
+
+[SA.01]
+You are very conservative when it comes to your personal appearance and communications with others. You are impartial and don't play favorites or get overly personal. You probably don't waste words.
+
+[SA.02]
+You could be frugal when it comes to possessions, always limiting your purchases to what is essential and has value. This same theme carries through in your response to people. You don't tend to lavish affection or sentiment. You keep it short and simple.
+
+[SA.03]
+You don't waste words, and communications tend to be short and to-the-point. You are very determined and deliberate when it comes to mental work and would make an excellent researcher or scientist. You concentrate on what is essential.
+
+[SA.04]
+You have very simple needs regarding home and surroundings. Some might find you frugal. It may be difficult for you to send down roots, build a home-base, and feel secure. Feelings and emotions may be on the sparse side.
+
+[SA.05]
+You find it difficult to let go, emote, and express your feelings, and tend to be cautious and restrained. Feeling creative may be difficult, for you are very hard on yourself in this area. You may have approach/avoidance reactions with children, animals.
+
+[SA.06]
+Your critical faculties are severe, and it may be difficult for you to exercise them. Once you turn your analytical light on, you tend to be relentless in appraisal. This could make working with others difficult. Good for food, health, conservation.
+
+[SA.07]
+Relationships are so important to you that they could be a stumbling block at times. It may be difficult for you to be close, as you are very demanding of others. You are not satisfied with superficialities. You want a lasting marriage (union, yoga).
+
+[SA.08]
+You can be very demanding when it comes to what is essential or central to a situation. You are exacting when it comes to getting down to the nitty-gritty. This is excellent for business or quality control. You like nothing but the best.
+
+[SA.09]
+Religion, philosophy, and truth are essential to your life. You are painstaking and deliberate when it comes to sorting through ideas and values for what is lasting and solid. You may appear to others as too sober or religious.
+
+[SA.10]
+Your career, practical vision, and skills are of central importance to you. You are nothing if not organized and deliberate in this area of life. Your reputation and image are a source of concern, and you do everything you can to make them solid.
+
+[SA.11]
+You work hard to make your dreams and ideals a reality. You work hard at community or group work. You spare no effort here. Humanitarian goals are central to your life's work.
+
+[SA.12]
+You are very serious when it comes to self-sacrifice and doing all you can to make things easier for other people. You pursue psychology, the human psyche, and things mystical. You are quite painstaking when it comes to giving and helping others.
+
+[SU.01]
+You tend to be out front and personable. Your personal appearance is important to you and you put a lot of thought and effort into how you appear or come across. Others notice you, and a position of leadership (prominence) is likely.
+
+[SU.02]
+You are very responsive and probably not a little possessive. You tend to collect things, and material success -- money, home, security, possessions, -- is very important. You tend to be very supportive of others.
+
+[SU.03]
+You are very communicative, not a little curious, and like to talk, speak, write, and so on. Study, research, and investigations of all kinds appeal to you. You are always searching out some answer or another. Siblings are important too.
+
+[SU.04]
+Home, family, and security are important to you. You love to send out roots and build a home base. Sensitive and somewhat private, you tend to be a very feeling (and sometimes vulnerable) person. You sense things and have a good feel for business.
+
+[SU.05]
+You are very expressive and outgoing when it comes to your feelings and emotions -- you wear your heart on your sleeve. Creativity of all kinds is important to you -- music, drama, art, poetry. Also, animals and children play a large role.
+
+[SU.06]
+You are a good worker, always thinking and caring for things. You are naturally service-oriented and enjoy taking care of the needs of others. You are very discriminating and can sort out the good apples from the bad.
+
+[SU.07]
+You love a social life -- friends and relationships play a major role in your makeup. Close bonds (marriage, yoga) are very important to you.
+
+[SU.08]
+What you see is what you get   is not enough for you. You want more than appearances and are willing to dig down to get at the heart of things. You work through all that is superficial, no matter what kind of personal sacrifice is required.
+
+[SU.09]
+You are direct and candid and tend to brush past appearances and settle on the truth within. Ideas -- philosophy and religion -- are what life is all about. You may travel, counsel, and be a teacher to others. SU 09
+
+[SU.10]
+You are very career-oriented, and your personal reputation and honor are of the utmost importance. You possess a natural sense of organization and practical insight and may excel at managing or supervising others..
+
+[SU.11]
+Perfect as a group leader, where your innate idealism and love for humanity can blossom. Group or community work -- anything that is altruistic or serves the common good -- is where you can be found. You strive to make your dreams and ideals real.
+
+[SU.12]
+You naturally are a giving person, sacrificing your own interests for the sake of an inner vision -- what you feel is right. A born psychologist, you may find yourself counseling and caring for the mental needs of others.
+
+[UR.01]
+A tendency to be eccentric and unconventional in appearance and mannerisms. Perhaps your approach to life -- the way you come on -- is unusual or different. You may be spontaneous, witty, and unpredictable.
+
+[UR.02]
+You may have unusual ways of responding to what life offers you, with the result that the way you make your living is somewhat eccentric. Your means of support may be individualistic and different from the group.
+
+[UR.03]
+You have real insight when it comes to anything connected to research, study, and the world of ideas. Your independent mental approach to problem-solving and communication finds you coming up with connections that are new and different.
+
+[UR.04]
+You are very independent when it comes to your own security and family. This could mean an unconventional-style home or furnishings, or a different approach to sentiment, nostalgia, and history.
+
+[UR.05]
+You are unconventional when it comes to self-expression and enjoyment. You find new and different ways to get it out -- possibly sports, the creative arts, and such. Always independent when it comes to emotions, you don't mind feeling a little different.
+
+[UR.06]
+You are innovative when it comes to self-analysis and self-care -- food, diet, health, and so on. You can see new ways to make use of the status quo. An unconventional approach to working for/with others may require a special work situation for you.
+
+[UR.07]
+You seem to assert your independence in relationships and the social scene. Unconventional, to say the least, you may well enjoy a different kind of marriage or friendship. You have insight into marriage or yoga -- the ties that bind.
+
+[UR.08]
+Lightning fast when it comes to the business deal, you seem to have direct insight into what is worthwhile and worthless in a situation. You have new and unconventional ways to cut through the red tape and get at what is important.
+
+[UR.09]
+Unconventional in matters of philosophy and religion, you always find new ways to get past the fluff and into what is really important. Your insights into truth and the eternal make you independent and somewhat of a loner.
+
+[UR.10]
+You are original and insightful when it comes to practical matters -- job, career, and such. Independent, you may have an unconventional approach to work, especially regarding how you organize or manage. You may have a reputation for being different.
+
+[UR.11]
+You may enjoy eccentric or unconventional friends, and groups with some kind of humanitarian flavor will appeal. You have very original ideas when it comes to community, making our collective dreams into a reality.
+
+[UR.12]
+You could be unconventional in matters of psychology, the psyche, and all that is mystical or spiritual. Unusual ways to help or care for others -- insight into accepting life and self-sacrifice -- are yours.
+
+[VE.01]
+You value a good appearance -- how people present themselves or come on. You value the personal approach and are very discriminating personally when it comes to matters of taste and art.
+
+[VE.02]
+You have a natural love of possessions and the material world. You value art and all that is beautiful and fine. Your sense of taste and discrimination is excellent.
+
+[VE.03]
+You love to communicate and pursue conversations. The mental world appeals to you, and you are very discriminating (but appreciative) when it comes to concepts, ideas, thoughts, and the like. You value good research and real inquiry.
+
+[VE.04]
+You love your roots, whether home and family, ancestors, or history in general. You are probably a collector and very discriminating in this area. You appreciate emotions and like to get a sense or feel for whatever is happening.
+
+[VE.05]
+You probably love the theater and all that is creative, expressive, and artsy. You appreciate the dramatic, and emotional scenes are a sign of life to you. You love action, sports, and putting your heart and feelings on the line.
+
+[VE.06]
+You like to do things with care and enjoy being discriminating and exact. Your critical faculties are excellent, and you can always pick out what is worth saving and what is not. You appreciate a caring attitude and are service-oriented.
+
+[VE.07]
+You love social life and relationships of all kinds -- partners, marriages, teachers, and such. You are very responsive yourself and value this in others. You don't play favorites and are quite impersonal when it comes to your responsibilities.
+
+[VE.08]
+You don't care much for the superficial. You appreciate getting past the surface and down to the heart--the bare bones of the matter. This could make you a very shrewd and discriminating business person. You value passion in a relationship. VE 08
+
+[VE.09]
+Your love of truth makes philosophy and religious ideas a life-long habit. You appreciate things of a global or universal level and could love to travel. Appearances mean little to you, and you value honesty and candidness in friends and partners.
+
+[VE.10]
+You love large-scale organization, and career or business will always be close to your heart. Your sense of discrimination when it comes to practical issues is excellent, and you value clearheadedness in others. You like to work.
+
+[VE.11]
+You love community projects and group work of any kind. Your sense of values finds you on the side of altruism and humanism at every turn. You appreciate goals and efforts at the global level.
+
+[VE.12]
+You can appreciate the difficulties of others and be understanding of the problems they may be having. You value a certain amount of self-sacrifice and a giving attitude. You can discriminate between superficiality and the reality beneath them it.

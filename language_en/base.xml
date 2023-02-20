@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="base" label="BASE" language_tag="en" language_label="English">
+    <key name="questions_section_Lovematch_label"><value>Astrology</value></key>
+    <key name="questions_question_lovematch_time_label"><value>Birth time</value></key>
+    <key name="questions_question_lovematch_location_label"><value>Birth location</value></key>
+</prefix>

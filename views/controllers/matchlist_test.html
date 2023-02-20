@@ -1,0 +1,18 @@
+<div>Grand total: {$total}</div>
+
+<table>
+    <tr>
+        <th>Planet</th>
+        <th>Score</th>
+        <th>Match kind</th>
+        <th>Match info</th>
+    </tr>
+    {foreach from=$score item=entry}
+    <tr>
+        <td>{$entry['planet1']} <-> {$entry['planet2']}</td>
+        <td>{$entry['total']}</td>
+        <td>{$entry['match']}</td>
+        <td>{$entry['match_info']}</td>
+    </tr>
+    {/foreach}
+</table>

@@ -1,0 +1,83 @@
+{style}
+    #lovematch_list_view 
+    {
+        max-width: 900px;   
+    }
+    
+    #lovematch_list_view .ow_user_list_item
+    {
+        text-align:center;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #lovematch_list_view .infobox
+    {
+        background: white;
+        border: 2px solid lightgray;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    #lovematch_list_view .title
+    {
+        font-size: 25px;
+        margin-bottom: 20px;
+        color: #0095C2;
+    }
+    
+{/style}
+<div id="lovematch_list_view">
+    <div class="title">Find out your best match according to Astrology</div>
+
+    <div class="infobox" style="margin-top: 30px; margin-bottom: 20px;">
+        <p>
+            Our astrological matching system is based on signs, elements, aspects and polarity in accordance to Tantric teachings. As we are still in beta version, our algorithm is constantly improving, so come here now and then to check out new scores and matches.<br/>
+            <b>Disclaimer:</b> <i>Remember that no computer can replace a consultation with a professional astrologer. If you wish a complete and fully reliable analysis just get in touch with Daniela (093 649 5267) on Koh Phangan, or any other reputed astrologer!</i> <br/><br/>
+            For any enquiry, suggestion or bug report please use the <a href="{url_for_route for="section-default:[sectionId=>1]"}">Support forum</a>, we are looking forward to hear from you ^_^
+		</p>
+    </div>
+
+{if $showList}
+    
+    {foreach from=$matchList item=match}
+        {assign var="id" value=$match.uid}
+        {assign var="score" value=$match.score}
+        {assign var="avatar" value=$avatarList[$id]}
+        {assign var="realname" value=$infoList[$id].realname}
+        {assign var="username" value=$infoList[$id].username}
+
+
+        <div class="ow_user_list_item clearfix">
+
+            <div class="ow_user_list_picture" style="padding-top: 8px">
+                {decorator name='avatar_item' data=$avatar}
+            </div>
+            <div class="ow_user_list_data">
+                {user_link username=$username name=$realname}
+                <br/>
+                <br/>
+                <div class="ow_big" style="font-size: 30px; text-align: center">
+                    {*{$score}*}
+                    {(int)($score/$maxScore*100)}%
+                </div>
+                <br/>
+                <div class="ow_small" style="text-align: center">
+                    <a href="{url_for_route for="lovematch.detail.user:[username=>$username]"}">details</a>
+                </div>
+            </div>
+        </div>
+
+    {/foreach}
+    
+
+{else}
+    <br/>
+    <div style="text-align:center; font-size: 16px" >
+        In order to access to the matching system we need you to 
+        <a href="{$userEditUrl}"><b>update your profile</b></a> 
+        with your astrological details
+    </div>
+{/if}
+</div>

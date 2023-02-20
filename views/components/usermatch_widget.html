@@ -1,0 +1,104 @@
+{style}
+    #lovematch_list_view 
+    {
+        max-width: 900px;
+    }
+    
+    #lovematch_list_view .ow_user_list_item, #lovematch_list_view .ow_user_list_data
+    {
+        min-height: auto;
+        margin-top: 0px;
+        height: 70px !important;
+    }
+	
+	#lovematch_list_view .ow_user_list_item, #lovematch_list_view .ow_user_list_data a
+    {
+        font-size: 15px;
+    }
+    
+    #lovematch_list_view .ow_user_list_item
+    {
+        text-align:center; 
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #lovematch_list_view .ow_user_list_picture .ow_avatar,
+    #lovematch_list_view .ow_user_list_picture .ow_avatar img
+    {
+        width: 60px; 
+        height: 60px;
+    }
+    
+    #lovematch_list_view .lovematch_widget_view_all
+    {
+        margin-right: 10px;
+        height: 10px!important;
+    }
+	
+	div#lovematch_list_view div.ow_user_list_item.clearfix.lovematch_widget_view_all a
+	{
+		background-color: #ffffff;
+		border-radius: 3px;
+		color: #91959b;
+		display: inline-block;
+		line-height: 23px;
+		padding: 0 6px;
+		font-size: 11px;
+	}
+	
+	div#lovematch_list_view div.ow_user_list_item.clearfix.lovematch_widget_view_all a:hover 
+	{
+		background-color: #0296c0;
+		color: #ffffff;
+		text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.3);
+		text-decoration: none;
+	}
+    
+{/style}
+
+{if $showList}
+    <div id="lovematch_list_view">
+    {foreach from=$matchList item=match}
+        {assign var="id" value=$match.uid}
+        {assign var="score" value=$match.score}
+        {assign var="avatar" value=$avatarList[$id]}
+        {assign var="realname" value=$infoList[$id].realname}
+        {assign var="username" value=$infoList[$id].username}
+
+
+        <div class="ow_user_list_item clearfix">
+
+            <div class="ow_user_list_picture" style="padding-top: 8px">
+                {decorator name='avatar_item' data=$avatar}
+            </div>
+            <div class="ow_user_list_data" style = "padding-left: 65px;">
+                {user_link username=$username name=$realname}
+                <br/>
+                <div class="ow_big" style="font-size: 18px; text-align: center; margin: 5px 5px 1px;">
+                    {(int)($score/$maxScore*100)}%
+                    {*{$score}*}
+                </div>
+                
+                <div class="ow_small" style="text-align: center;3>
+                    <a style="font-size: 10px;" href="{url_for_route for="lovematch.detail.user:[username=>$username]"}">details</a>
+                </div>
+            </div>
+        </div>
+
+    {/foreach}
+        <div class="ow_user_list_item clearfix lovematch_widget_view_all" style="text-align: right">
+            <a href="{url_for_route for="lovematch.index"}">View all</a>
+        </div>
+    </div>
+    
+
+{else}
+    <br/>
+    <div style="text-align:center; font-size: 16px" >
+        In order to access to the matching system we need you to 
+        <a href="{$userEditUrl}"><b>update your profile</b></a> 
+        with your astrological details
+    </div>
+{/if}

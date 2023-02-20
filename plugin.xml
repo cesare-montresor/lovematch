@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>Love Match</name>
+    <key>lovematch</key>
+    <description>"Love Match" page with a list of love matches.</description>
+    <author>Kalianey</author>
+    <authorEmail>kalianey@gmail.com</authorEmail>
+    <authorUrl>http://www.kalianey.com</authorUrl>
+    <developerKey>your_developer_key_here</developerKey>
+    <build>1</build>
+    <copyright>(C) 2014 Kalianey. All rights reserved.</copyright>
+    <license>The BSD License</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+</plugin>

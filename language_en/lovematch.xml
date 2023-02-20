@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="lovematch" label="Love Match" language_tag="en" language_label="English">
+    <key name="btn_settings_calculate"><value>Calculate all match</value></key>
+    <key name="btn_settings_index"><value>General settings</value></key>
+    <key name="btn_settings_questions"><value>Edit questions</value></key>
+    <key name="index_page_heading"><value>Love Match List</value></key>
+    <key name="index_page_title"><value>Love Match List</value></key>
+    <key name="main_menu_item"><value>Love list</value></key>
+    <key name="profile_toolbar_item_matchme"><value>Match Me!</value></key>
+</prefix>

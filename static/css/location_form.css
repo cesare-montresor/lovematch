@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 1, 2014, 3:32:52 PM
+    Author     : cesare
+*/
+
+#lovematch_location_result
+{
+    float: left;
+    position: absolute;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 1px solid lightgray;
+    background-color: white;
+    min-width: 300px;
+}
+
+#lovematch_location_result .odd
+{
+    background-color: white;
+}
+
+#lovematch_location_result .even
+{
+    background-color: lightgray;
+}
+
+#lovematch_location_result .resultItem
+{
+    padding: 5px!important; 
+    min-width: 400px;
+    max-width: 400px;
+    cursor: pointer;
+}
+
+#lovematch_location_result .resultItem:hover
+{
+    background-color: lightblue!important;
+}
+
+

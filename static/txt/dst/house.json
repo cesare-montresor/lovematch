@@ -1,0 +1,50 @@
+{
+    "1": {
+        "title": "FIRST HOUSE",
+        "desc": "The First House is the House of the Self, symbolizing your personality, disposition, and the image of yourself which you project to the world. It gives you a general picture of your nature and the goals you have in life. The Natural Ruler (or corresponding zodiac sign) of the First House is Aries."
+    },
+    "2": {
+        "title": "SECOND HOUSE",
+        "desc": "The Second House is the House of Finances and Possessions. It tells you what material items you might acquire and what importance you will place on them. It also depicts your ability to manage your finances and earn money. The Natural Ruler (or corresponding zodiac sign) of the Second House is Taurus."
+    },
+    "3": {
+        "title": "THIRD HOUSE",
+        "desc": "The Third House is the House of Communication, governing your style and success in communicating with others through speech and the written word. It also depicts your own desire and ability to learn. The Natural Ruler (or corresponding zodiac sign) of the Third House is Gemini."
+    },
+    "4": {
+        "title": "FOURTH HOUSE",
+        "desc": "The Fourth House is the house of Home and Family. It tells you about your home life and relations with your family. Your family can be interpreted broadly to include very close friends. The Natural Ruler (or corresponding zodiac sign) of the Fourth House is Cancer."
+    },
+    "5": {
+        "title": "FIFTH HOUSE",
+        "desc": "The Fifth House is the House of Romance and Creativity. This House rules over your love life and sexual nature, new ventures, gambling, and your artistic nature. In a sense, this House is the House of the Heart for it relates to all things for which you have affection. The Natural Ruler (or corresponding zodiac sign) of the Fifth House is Leo."
+    },
+    "6": {
+        "title": "SIXTH HOUSE",
+        "desc": "The Sixth House is the House of Compassion and Health. It rules over your desire to help others and improve the world. It also depicts the status of your health and often determines the strength of your constitution. The Natural Ruler (or corresponding zodiac sign) of the Sixth House is Virgo."
+    },
+    "7": {
+        "title": "SEVENTH HOUSE",
+        "desc": "The Seventh House is the House of Partnerships and Conflicts. It may tell you about your present or future spouse and the relationship you will have. It also rules over all other types of partnerships and agreements, as well as describing your ability to have harmonious relations with others. The Natural Ruler (or corresponding zodiac sign) of the Seventh House is Libra."
+    },
+    "8": {
+        "title": "EIGHTH HOUSE",
+        "desc": "The Eighth House is the House of Death and Spirituality. Ruling the mystical forces surrounding birth, death, sex, spirituality, and the afterlife, this House also governs inheritances and taxes. This house may even give you some insight into the circumstances leading to your own death. The Natural Ruler (or corresponding zodiac sign) of the Eighth House is Scorpio."
+    },
+    "9": {
+        "title": "NINTH HOUSE",
+        "desc": "The Ninth House is the House of Travel and Mental Journeys. This House governs higher education and the pursuit of  knowledge, as well as long distance travel (perhaps overseas). The Natural Ruler (or corresponding zodiac sign) of the Ninth House is Sagittarius."
+    },
+    "10": {
+        "title": "TENTH HOUSE",
+        "desc": "The Tenth House is the House of Career and Prominence. It governs the success of your career, your prominence and reputation in the community, and which accolades and honors you may receive. It indirectly denotes the manner in which you accept responsibility. The Natural Ruler (or corresponding zodiac sign) of the Tenth House is Capricorn."
+    },
+    "11": {
+        "title": "ELEVENTH HOUSE",
+        "desc": "The Eleventh House is the House of Friends as well as the house of Hopes and Aspirations. It governs your long term goals as well as the associations you make to achieve those personal objectives. It is also the House of Idealism and your ability to have harmonious relationships with others. The Natural Ruler (or corresponding zodiac sign) of the Eleventh House is Aquarius."
+    },
+    "12": {
+        "title": "TWELFTH HOUSE",
+        "desc": "The Twelfth House is the House of Secrets, Sorrows and Self Destruction. It governs mishaps, disappointments, trouble, and the personal demons which may prevent you from leading the life of your choice. Its power manifests itself in escapism, dark secrets, unknown enemies, mental illness, hospitals and prisons. The Natural Ruler (or corresponding zodiac sign) of the Twelfth House is Pisces."
+    }
+}

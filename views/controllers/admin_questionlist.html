@@ -1,0 +1,16 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+{$menu}
+<h1>Love Match Settings</h1>
+{form name='question_list'}
+<table class="ow_table_1 ow_form ow_automargin ow_superwide">
+    {foreach from=$questionNameList item=q}
+    <tr class="ow_alt1">           
+            <td class="ow_label">Question</td>
+            <td class="ow_value">{input name='Question'}{error name='Question'}</td>        
+    </tr>
+     {/foreach}
+</table
+{/form}
